@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dcs-dubbo.iml" filepath="$PROJECT_DIR$/dcs-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dcs-dubbo-service/dcs-dubbo-service.iml" filepath="$PROJECT_DIR$/dcs-dubbo-service/dcs-dubbo-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dcs-dubbo-service-api/dcs-dubbo-service-api.iml" filepath="$PROJECT_DIR$/dcs-dubbo-service-api/dcs-dubbo-service-api.iml" />
+    </modules>
+  </component>
+</project>
