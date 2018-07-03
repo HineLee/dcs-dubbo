@@ -1,7 +1,8 @@
 # dcs-dubbo
 
 #### 项目介绍
-Dubbo 构建项目 使用maven 打包插件打包成tag.gz，完成自动化部署
+   Dubbo 构建项目 使用maven 打包插件打包成tag.gz，完成自动化部署
+通过Maven子模块将服务接口、Dubbo服务实现及配置分离。
 
 #### 软件架构
 软件架构说明
