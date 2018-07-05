@@ -17,5 +17,5 @@
     <!-- dubbo 拦截器 -->
     <dubbo:provider filter="monitorArgFilter" token="true" />
 
-  	<dubbo:service interface="TestService" ref="testServiceImpl" />
+  	<dubbo:service interface="com.dubbo.dcs.service.TestService" ref="testServiceImpl" />
 </beans>
