@@ -13,9 +13,10 @@
     <dubbo:registry address="${dubbo.registry.address}" />
  
 	<!-- 用dubbo协议在20880端口暴露服务 -->
-	<dubbo:protocol name="dubbo" port="${dubbo.protocol.port}" />
+	<dubbo:protocol name="dubbo" port="${dubbo.protocol.port}" dispatcher="all" threadpool="fixed" threads="200" />
     <!-- dubbo 拦截器 -->
     <dubbo:provider filter="monitorArgFilter" token="true" />
 
   	<dubbo:service interface="com.dubbo.dcs.service.TestService" ref="testServiceImpl" />
+
 </beans>
